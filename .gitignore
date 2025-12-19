@@ -1,0 +1,46 @@
+# .gitignore for TaskMaster Pro
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Data files - DO NOT TRACK (user-specific data)
+taskmaster_data.json
+task_data.json
+task_data_backup.json
+*.json.backup
+
+# Export files (can be regenerated)
+taskmaster_export.txt
+export_*.txt
+*.export.txt
+
+# Screenshots (optional - remove if you want to track them)
+screenshot.png
+*.screenshot.*
+
+# Compiled executables
+*.exe
+dist/
+build/
